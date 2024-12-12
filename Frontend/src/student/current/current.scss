@@ -1,0 +1,59 @@
+.current{
+    .table{
+       .thead{
+        display: flex;
+        margin-top: 100px;
+        margin-left: 300px;
+        height: 50px;
+        width: 1130px;
+        background: rgb(97, 253, 136);
+        border-radius: 5px;
+        .container{
+            height: 50px;
+            width: 190px;
+            background:transparent;
+            justify-content: center;
+            h5{
+                text-align: center;
+                background: transparent;
+            }
+        }
+
+       }
+       .tbody{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 300px;
+        height: 50px;
+        width: 1130px;
+        background: blanchedalmond;
+        border-radius: 5px;
+        .container{
+            height: 50px;
+            width: 190px;
+            background:transparent;
+            justify-content: center;
+            background:transparent;
+            h6{
+                text-align: center;
+                background: transparent;
+            }
+           
+            button{
+                background: rgb(245, 82, 0);
+                color: aliceblue;
+                border: none;
+                border-radius: 10px;
+                margin-left: 70px;
+                margin-top: 8px;
+                height: 35px;
+                width: 70px;
+                h6{
+                    margin-top: -2px;
+                }
+            }
+        }
+       
+       }
+    }
+}

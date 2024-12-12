@@ -1,0 +1,103 @@
+.perform {
+    height: 160vh;
+    .list{
+      .table{
+        .thead{
+         display: flex;
+         margin-top: 100px;
+         margin-left: 300px;
+         height: 50px;
+         width: 1130px;
+         background: rgb(123, 200, 255);
+         align-items: center;
+         gap: 40px;
+         border-radius: 5px;
+         text-align: center;
+         h5{
+             margin-left: 20px;
+             
+         }
+        }
+        .tbody{
+         display: flex;
+         margin-top: 5px;
+         margin-left: 300px;
+         height: 50px;
+         width: 1130px;
+         background: blanchedalmond;
+         border-radius: 5px;
+         .container1{
+          height: 50px;
+          width: 135px;
+          text-align: center;
+          margin-left: 1px;
+          background:transparent;
+          h6{
+
+              margin-top: 5px;
+              text-align: center;
+              background: transparent;
+          }
+          
+      }
+         .container2{
+             height: 50px;
+             width: 110px;
+             text-align: center;
+             margin-left: 130px;
+             background:transparent;
+             h6{
+ 
+                 margin-top: 5px;
+                 text-align: center;
+                 background: transparent;
+             }
+             
+         }
+        }
+     }
+    }
+    .chart {
+      margin-left: 300px;
+      margin-top: 120px;
+      width: 1100px;
+      h1 {
+        margin-top: -20px;
+        margin-left: 40px;
+        color: rgba(255, 255, 255, 0.79);
+      }
+      .container{
+        margin-top: 60px;
+      }
+      .value {
+        display: flex;
+        gap: 85px;
+        margin-left: 200px;
+        color: rgba(240, 248, 255, 0.907);
+        table {
+            margin-top: 50px;
+            margin-left: 20px;
+          border-collapse: collapse;
+          width: 75%;
+          border: 2px solid white;
+          th, td {
+            border: 1px solid white; 
+            text-align: left;
+          }
+          th {
+            background-color: rgba(0, 0, 0, 0.5); 
+            color: rgba(255, 255, 255, 0.914); 
+          }
+          tr:nth-child(even) {
+            background-color: rgba(0, 0, 0, 0.3); 
+          }
+          tr:not(:last-child) {
+            border-bottom: 1px solid white;
+          }
+          td:not(:last-child) {
+            border-right: 1px solid white;
+          }
+        }
+      }
+    }
+  }

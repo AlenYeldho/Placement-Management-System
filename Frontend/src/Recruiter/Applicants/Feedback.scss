@@ -1,0 +1,55 @@
+.feedback{
+    width: 950px;
+    height: 580px;
+    margin-left: 350px;
+    margin-top: 120px;
+    color: black;
+    padding-left: 50px;
+    padding-top: 40px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    
+    
+    .line{
+        height: 2px;
+        width: 94%;
+        background: #000;
+    }
+    .labels{
+        margin-left: 300px;
+        h4{
+            padding-top: 10px;
+             margin-left: -300px;
+        }
+        label{
+            padding-left: 60px;
+            padding-top: 10px;
+        }
+    }
+    form{
+        .raw{
+            padding-top: 15px;
+                .inputs{
+                     margin-left: 300px;
+                    input{
+                        margin-left: 90px;
+                       
+                    }
+                    
+                }
+            }
+        }
+    button{
+        margin-top: 35px;
+        background-color: orangered;
+        border-radius: 20px;
+        border: none;
+        color: aliceblue;
+        height: 35px;
+        width: 100px;
+        h6{
+            margin-top: -2px;
+        }
+    }
+    
+}

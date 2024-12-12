@@ -1,0 +1,110 @@
+import React from 'react'
+import "./admin.scss"
+import { Link } from 'react-router-dom'
+import ReactApexChart from 'react-apexcharts';
+import RouterAdmin from './RouterAdmin/RouterAdmin'
+function Admin() {
+
+  const state = {
+    series: [
+        {
+            name: 'Technical Skill',
+            type: 'column',
+            data:[35, 26, 45, 48, 52, 53, 41]
+        },
+        {
+            name: 'Problem Solving Skill',
+            type: 'column',
+            data:[35, 41, 36, 48, 52, 53, 41]
+        },
+        {
+            name: 'Planning,Organizing and Decision Making',
+            type: 'column',
+            data:[ 36, 26, 45, 48, 52, 53, 41]
+        },
+        {
+            name: 'Communication Skill',
+            type: 'column',
+            data:[35, 41, 36, 26, 52, 53, 41]
+        },
+        {
+            name: 'Knowledge of the Company',
+            type: 'column',
+            data:[35, 41, 36, 26, 45, 48, 52]
+        }
+    ],
+    options: {
+      colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800'],
+      chart: {
+        type: 'bar',
+        height: 350
+      },
+      plotOptions: {
+        bar: {
+          horizontal: false,
+          columnWidth: '90%',
+          endingShape: 'rounded'
+        },
+      },
+      dataLabels: {
+        enabled: false
+      },
+      stroke: {
+        show: true,
+        width: 2,
+        colors: ['transparent']
+      },
+      xaxis: {
+        categories: [1,2,3,4,5,6,7],
+        title:{
+            text: '( Interview Attempted )'
+        }
+      },
+      yaxis: {
+        title: {
+          text: '( Performance )'
+        }
+      },
+      fill: {
+        opacity: 1
+      },
+      tooltip: {
+        y: {
+          formatter: function (val) {
+            return "$ " + val 
+          }
+        }
+      }
+    }
+};
+
+  return (
+    <div className='admin'>
+      
+      <div className='container'>
+      <h1>Performance Chart</h1>
+            <div id="chart">
+              <ReactApexChart options={state.options} series={state.series} type="bar" height={500} />
+            </div>
+         </div>
+        <RouterAdmin/>
+        <div className='nav'>
+            <h2>Admin</h2>
+            <button><Link to="/">Logout</Link></button>
+        </div>
+        <div className='sidebar'>
+          <img src='logoref.png' alt=''/>
+            <div className='cont'>
+                <div className='txt'><Link to="viewstd">View students</Link></div>
+                <div className='txt'><Link to="companys">View Companys</Link></div>
+                <div className='txt'><Link to="AddDrives">Add Drives</Link></div>
+                <div className='txt'><Link to="Drives">View Drives</Link></div>
+                <div className='txt'><Link to="Placed">Placed Students</Link></div>
+                {/* <div className='txt'><Link to="changepssdA">Change Password</Link></div> */}
+            </div> 
+        </div>
+    </div>
+  )
+}
+
+export default Admin

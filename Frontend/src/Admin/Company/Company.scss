@@ -1,0 +1,56 @@
+.company{
+    .table{
+        margin-left: 80px;
+        margin-top: 95px;
+        .thead{
+         display: flex;
+         margin-top: 100px;
+         margin-left: 300px;
+         height: 50px;
+         width: 970px;
+         background: rgb(97, 253, 136);
+         align-items: center;
+         border-radius: 5px;
+         .contain{
+            display: flex;
+            float: left;
+            width: 270px;
+            justify-content: center;
+            h5{
+                background: transparent;
+            }
+           }
+        }
+        .tbody{
+         display: flex;
+         margin-top: 5px;
+         margin-left: 300px;
+         height: 50px;
+         width: 970px;
+         background: blanchedalmond;
+         border-radius: 5px;
+         .contain{
+            display: flex;
+            float: left;
+            width: 270px;
+            justify-content: center;
+            h6{
+                background: transparent;
+            }
+            button{
+                background: rgb(245, 82, 0);
+                color: aliceblue;
+                border: none;
+                border-radius: 20px;
+                margin-top: 8px;
+                height: 35px;
+                width: 90px;
+                h6{
+                    margin-top: 0px;
+                }
+            }
+           }
+         
+        }
+     }
+}

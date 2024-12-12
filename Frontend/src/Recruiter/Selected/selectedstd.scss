@@ -1,0 +1,51 @@
+.selected{
+    .table{
+        .thead {
+            margin-top: 100px;
+            margin-left: 300px;
+            height: 50px;
+            width: 1130px;
+            background: rgb(97, 253, 136);
+            border-radius: 5px;
+           .contain{
+            display: flex;
+            float: left;
+            width: 220px;
+            justify-content: center;
+            h5{
+                background: transparent;
+            }
+           }
+        }
+       .tbody{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 300px;
+        height: 50px;
+        width: 1130px;
+        background: blanchedalmond;
+        border-radius: 5px;
+        .contain{
+            display: flex;
+            float: left;
+            width: 220px;
+            justify-content: center;
+            h6{
+                background: transparent;
+            }
+            button{
+                background: rgb(245, 82, 0);
+                color: aliceblue;
+                border: none;
+                border-radius: 20px;
+                margin-top: 8px;
+                height: 35px;
+                width: 80px;
+                align-items: center;
+              
+            }
+           }
+        }
+     
+    }
+}

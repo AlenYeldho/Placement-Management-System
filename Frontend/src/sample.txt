@@ -1,0 +1,83 @@
+<div className='table'>
+        <div className='thead'>
+          <h5>Name</h5>
+          <h5>Reg NO.</h5>
+          <h5>Branch</h5>
+          <h5>Email</h5>
+          <h5>Phone No.</h5>
+          <h5>Action</h5>
+        </div>
+        <div className='tbody'>
+            <div className='container'><h6>Affin K Shephy</h6></div>
+            <div className='container'><h6>MBI21CS004</h6></div>
+            <div className='container2'><h6>CSE</h6></div>
+            <div className='container2'><h6>affin@gmail.com</h6></div>
+            <div className='container2'><h6>95/h6></div>
+            <div className='container'><button><h6>Apply</h6></button></div>
+        </div>
+        </div>
+
+
+            .table{
+       .thead{
+        display: flex;
+        margin-top: 100px;
+        margin-left: 300px;
+        height: 50px;
+        width: 1130px;
+        background: rgb(97, 253, 136);
+        align-items: center;
+        gap: 138px;
+        border-radius: 5px;
+        h5{
+            margin-left: 10px;
+            
+        }
+       }
+       .tbody{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 300px;
+        height: 50px;
+        width: 1130px;
+        background: blanchedalmond;
+        border-radius: 5px;
+        .container{
+            height: 50px;
+            width: 218px;
+            margin-left: 0px;
+            background:transparent;
+            button{
+                background: rgb(245, 82, 0);
+                color: aliceblue;
+                border: none;
+                border-radius: 10px;
+                margin-left: 70px;
+                margin-top: 8px;
+                height: 35px;
+                width: 70px;
+                h6{
+                    margin-top: -2px;
+                }
+            }
+            h6{
+                margin-top: 1px;
+                background: transparent;
+            }
+        }
+        .container2{
+            height: 50px;
+            width: 218px;
+            text-align: center;
+            margin-left: 1px;
+            background:transparent;
+            h6{
+
+                margin-top: 5px;
+                text-align: center;
+                background: transparent;
+            }
+            
+        }
+       }
+    }

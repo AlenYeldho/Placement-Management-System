@@ -1,0 +1,87 @@
+.applicants{
+    .table{
+        .thead{
+         display: flex;
+         margin-top: 100px;
+         margin-left: 300px;
+         height: 50px;
+         width: 1140px;
+         background: rgb(97, 253, 136);
+         align-items: center;
+         border-radius: 5px;
+         .action{
+             margin-left: 50px;
+             background: transparent;
+             h5{
+                margin-top: 7px;
+                background: transparent;
+            }
+         }
+         .mark {
+            
+            display: inline-flex;
+            background: transparent;
+            justify-content: center; /* Changed align-content to justify-content */
+            width: 130px;
+        
+            h5 {
+                margin-top: 7px;
+                background: transparent;
+            }
+        }
+         h5{
+             margin-left: 10px;
+             font-size: 17px;
+             
+         }
+        }
+        .tbody{
+         display: flex;
+         margin-top: 5px;
+         margin-left: 300px;
+         height: 50px;
+         width: 1140px;
+         background: blanchedalmond;
+         border-radius: 5px;
+         align-items: center;
+         .action{
+            display: inline-flex;
+            background: transparent;
+            align-items: center;
+             /* Changed align-content to justify-content */
+            
+             button{
+                background: rgb(245, 82, 0);
+                color: aliceblue;
+                border: none;
+                border-radius: 50px;
+                margin-left: 10px;
+                margin-top: 8px;
+                height: 35px;
+                width: 100px;
+                text-align: center;
+                   h6{
+                     margin-top: -2px;
+                    }
+                 }
+             h6{
+                margin-top: 7px;
+                background: transparent;
+            }
+         }
+         
+         .mark {
+            display: inline-flex;
+            background: transparent;
+            
+            justify-content: center; /* Changed align-content to justify-content */
+            width: 130px;
+        
+            h6 {
+                background: transparent;
+            }
+        }
+        
+        }
+     }
+}

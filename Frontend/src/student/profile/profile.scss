@@ -1,0 +1,112 @@
+.profile{
+    min-height: 160vh;
+    form{
+        padding: 35px;
+        padding-top: 45px;
+        margin-top: 85px;
+        width: 935px;
+        background: rgb(208, 201, 201);
+        margin-left: 400px;
+        height: 1350px;
+        border-radius: 40px;
+        position: relative;
+        label{
+            margin-left: 25px;
+            color: #554d4d;
+        }
+        img{
+            margin-left: 20px;
+            height: 171px;
+            width: 180px;
+            border-radius: 10px;
+        }
+        .h1{
+            background:#262626;
+            display: flex;
+            margin-left:20px;
+            margin-top: 30px;
+            height: 80px;
+            width: 820PX;
+            justify-content: center;
+            border-radius: 100px;
+            h1:hover{
+                color: orange;
+            }
+
+            h1{
+                
+                color: beige;
+                font-size: 40px;
+                margin-top: 15px;
+                
+            }
+        }
+        .content{
+            margin-top:40px;
+            .textarea{
+                width: 400px;
+                height: 80px;
+                margin-left: 20px;
+                margin-top: 40px;
+                border-radius: 5px;
+                border: none;
+                
+            }
+            .skills{
+                height: 80px;
+                width: 820px;
+                margin-top: 20px;
+                border-radius: 5px;
+                border: none;
+                margin-left: 20px;
+            }
+            .input{
+                width: 400px;
+                height: 40px;
+                margin-top: 40px;
+                border-radius: 5px;
+                border: none;
+                margin-left: 20px;
+                text-align: center;
+            }
+            .inputfile{
+               width: 400px;
+                height: 40px;
+                margin-top: 40px;
+                border: none;
+                margin-left: 20px;
+                text-align: center;
+                
+                
+            }
+            .inputgender{
+                height: 40px;
+                width: 400px;
+                border-radius: 5px;
+                border: none;
+                margin-left: 20px;
+            }
+            .button{
+                margin-left: 10px;
+                margin-top: 40px;
+                width: 250px;
+                button{
+                 margin-left: 20px;
+                border-radius: 20px;
+                border: none;
+                width: 120px;
+                height: 40px;
+                background: orange;
+                color: white;
+                }
+            }
+        }
+        
+        
+      
+    }
+}
+input::placeholder {
+    text-align: center;
+  }
+ 

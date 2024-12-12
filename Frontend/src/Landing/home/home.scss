@@ -1,0 +1,41 @@
+.home{
+    float: left;
+    display: flex;
+    padding-left: 30px;
+    .image{
+        .logosub{
+            display: flex;
+            height: 15px;
+            width: 150px;
+            align-items: center;
+            
+
+            img{
+                height: 60px;
+                width: 190px;
+                margin-left:80px;
+                margin-top: 250px
+                
+            }
+        }
+       img{
+        margin-top: 180px;
+        margin-left: 45px;
+        height: 480px;
+        width: 600px;
+       }
+    }
+    .text{
+        height: 100%;
+        width: 40%;
+        margin-left: 60px;
+        margin-top: 160px;
+        color: rgb(71, 73, 74);
+        h1,h2{
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 30px;
+        }
+    }
+}
